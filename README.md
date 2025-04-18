@@ -10,6 +10,22 @@
 npm i
 ```
 
+### Добавление env файла
+Добавьте env файл со следующими переменными:
+```sh
+PORT
+DB_HOST
+DB_PORT
+DB_USERNAME
+DB_PASSWORD
+DB_DATABASE
+JWT_SECRET
+JWT_EXPIRES_IN
+REDIS_HOST
+REDIS_PORT
+REDIS_TTL
+```
+
 ### Инициализация БД
 Чтобы инциализировать БД, выполните команду:
 ```sh
