@@ -69,7 +69,6 @@ export class ArticlesService {
     }>(cacheKey);
 
     if (cached) {
-      console.log(cached);
       return cached;
     }
 
